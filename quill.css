@@ -1,3 +1,19 @@
 #editor {
   min-height: 500px;
 }
+
+.button {
+  background-color: #1867c0;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-family: cursive;
+}
+
+#SaveNote-btn {
+  background-color: #42a846;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-family: cursive;
+}

@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
       }
     },
     placeholder: 'Start collaborating...',
-    theme: 'snow' 
+    theme: 'snow'
   })
 
   const binding = new QuillBinding(ytext, editor, provider.awareness)
@@ -44,6 +44,16 @@ window.addEventListener('load', () => {
       provider.connect()
       connectBtn.textContent = 'Disconnect'
     }
+  })
+
+  const fetchNoteBtn = document.getElementById('FetchNote-btn')
+  fetchNoteBtn.addEventListener('click', () => {
+    // editor.root.innerText = 'Fetched Note'
+  })
+
+  const SaveNoteBtn = document.getElementById('SaveNote-btn')
+  SaveNoteBtn.addEventListener('click', () => {
+    console.log('saved')
   })
 
   // @ts-ignore
